@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101012">
+  <title>OFF THE RECORD.</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="content.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <!-- 콘텐츠와 메뉴는 content.js의 설정에 따라 생성됩니다. -->
+  <a class="skip" href="#main">본문 바로가기</a>
+  <header class="masthead">
+    <div class="header-inner">
+      <a class="wordmark" id="wordmark" href="#main"></a>
+      <button class="menu-toggle" type="button" aria-controls="navigation" aria-expanded="false">메뉴 <span aria-hidden="true">☰</span></button>
+      <nav id="navigation" aria-label="아카이브 목차"></nav>
+    </div>
+    <div class="progress" aria-hidden="true"></div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="footer"></footer>
+  <dialog id="reader" aria-labelledby="reader-title">
+    <div class="reader-top"><button class="close" type="button" autofocus aria-label="닫기">닫기 <span aria-hidden="true">×</span></button></div>
+    <div id="reader-content"></div>
+  </dialog>
+  <noscript><p>아카이브를 열려면 브라우저에서 JavaScript를 사용하도록 설정해주세요.</p></noscript>
+</body>
+</html>
