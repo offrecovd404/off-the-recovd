@@ -37,16 +37,16 @@ window.ARCHIVE_CONTENT = {
   },
   // category가 같은 작품은 같은 필터에 묶입니다. 이미지나 링크가 없으면 ""를 사용하세요.
   preferences: [
-    { category: "영화", title: "Eternal Sunshine of the Spotless Mind", description: "기억이 지워진 자리에도 어떤 마음은 남아 있을까.", image: "assets/chair.webp", alt: "겨울 해변에 놓인 빈 의자", url: "" },
-    { category: "게임", title: "God of War Ragnarök", description: "거친 풍경을 지나며 조금씩 달라지는 두 사람의 거리.", image: "assets/mountain.webp", alt: "안개에 잠긴 눈 덮인 산맥", url: "" },
-    { category: "음악", title: "Ruel — distance", description: "가까이 있고 싶다는 마음과 거리를 두고 싶은 마음 사이.", image: "assets/window.webp", alt: "빗방울 맺힌 밤의 차창", url: "" },
+    { category: "영화", title: "Eternal Sunshine of the Spotless Mind", description: "기억이 지워진 자리에도 어떤 마음은 남아 있을까.", image: "chair.webp", alt: "겨울 해변에 놓인 빈 의자", url: "" },
+    { category: "게임", title: "God of War Ragnarök", description: "거친 풍경을 지나며 조금씩 달라지는 두 사람의 거리.", image: "mountain.webp", alt: "안개에 잠긴 눈 덮인 산맥", url: "" },
+    { category: "음악", title: "Ruel — distance", description: "가까이 있고 싶다는 마음과 거리를 두고 싶은 마음 사이.", image: "window.webp", alt: "빗방울 맺힌 밤의 차창", url: "" },
   ],
   // 본문은 문단마다 큰따옴표로 묶어 배열에 추가합니다. 날짜는 생략할 수 있습니다.
   afterimages: [
     {
       title: "중독", date: "", summary: "아득해질 듯 넌 날 중독시켰다.",
       body: ["그리움은 지나간 것을 그대로 되돌리고 싶은 마음과는 조금 다르다.", "어떤 장면이 문득 떠오르면, 그때의 내가 무엇을 소중하게 여겼는지 다시 생각해 본다."],
-      image: "assets/montauk.webp", alt: "어두운 모래 위로 밀려드는 파도",
+      image: "montauk.webp", alt: "어두운 모래 위로 밀려드는 파도",
     },
     {
       title: "장면과 장면 사이", date: "", summary: "기억에 남은 장면의 앞뒤를 생각하며.",
