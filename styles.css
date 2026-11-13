@@ -139,3 +139,10 @@ dialog::backdrop { background: #080809e8; }
 /* 로컬 파일을 열 때도 제목 글꼴을 사용할 수 있습니다. */
 @font-face { font-family: "Instrument Serif"; src: url("assets/InstrumentSerif-Regular.ttf") format("truetype"); font-style: normal; font-display: swap; }
 @font-face { font-family: "Instrument Serif"; src: url("assets/InstrumentSerif-Italic.ttf") format("truetype"); font-style: italic; font-display: swap; }
+/* 섹션 제목 줄바꿈 방지 */
+.chapter-heading h2 {
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: keep-all;
+  font-size: clamp(1.9rem, 3vw, 3.25rem);
+}
