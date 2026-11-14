@@ -29,7 +29,7 @@ window.ARCHIVE_CONTENT = {
       "이곳에는 그런 저의 여러 모습을 조금씩 남겨두려고 합니다.",
     ],
     details: [
-      { label: "닉네임", value: "CH" },
+      { label: "닉네임", value: "현서" },
       { label: "나이", value: "05년생, 22살" },
       { label: "관심사", value: "영화, 음악, 게임, 글" },
       { label: "성격 키워드", value: "경청, 관찰, 여운" },
